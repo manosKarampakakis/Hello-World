@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.krb.manos.seproject.MainActivity"
+    android:background="#ffffff">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zuEingang"
+        android:id="@+id/zuEingangButton"
+        android:onClick="onClickToEntry"
+        android:background="#c34bdb12"
+        android:allowUndo="false"
+        android:layout_alignBaseline="@+id/ausgangButton"
+        android:layout_alignBottom="@+id/ausgangButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zuAusgang"
+        android:id="@+id/ausgangButton"
+        android:onClick="onClickToExit"
+        android:background="#d71717"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/mainTitle"
+        android:layout_alignEnd="@+id/mainTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mainTitle"
+        android:id="@+id/mainTitle"
+        android:layout_alignWithParentIfMissing="false"
+        android:autoText="false"
+        android:gravity="center_horizontal"
+        android:background="#fefefe"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/zuEingangButton"
+        android:layout_alignStart="@+id/zuEingangButton" />
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analogClock"
+        android:layout_below="@+id/mainTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
