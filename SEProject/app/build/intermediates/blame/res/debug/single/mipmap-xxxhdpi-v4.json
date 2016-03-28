@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/manos/AndroidStudioProjects/SEProject/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_cartoon.png",
+        "source": "/home/manos/AndroidStudioProjects/SEProject/app/src/main/res/mipmap-xxxhdpi/ic_cartoon.png"
+    },
+    {
+        "merged": "/home/manos/AndroidStudioProjects/SEProject/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_car.png",
+        "source": "/home/manos/AndroidStudioProjects/SEProject/app/src/main/res/mipmap-xxxhdpi/ic_car.png"
+    },
+    {
+        "merged": "/home/manos/AndroidStudioProjects/SEProject/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/home/manos/AndroidStudioProjects/SEProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
